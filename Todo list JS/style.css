@@ -1,0 +1,76 @@
+.container{
+  padding-bottom: 20px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    box-shadow: 10px 10px 10px rgb(196, 196, 196);
+    border-radius: 20px;
+ margin: auto;
+    padding-top: 20px;
+
+}
+
+.add{
+    padding-left: 10px;
+    padding-right: 60px;
+    align-items: center;
+    display: flex; justify-content: space-between;
+}
+.card2{
+    width: 200px;
+    justify-content: space-between;
+    display: flex;
+}
+.btnadd:hover, .edit:hover, .btnsavedia:hover, .btn-close-info:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .dia, .info-dialog {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+
+.btnadd, .edit, .btnsavedia, .btn-close-info {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+
+  .checked {
+    color: gray;
+    text-decoration: line-through;
+  }
+  
+.titale{
+    font-size: 20px;
+    margin-left: 70px;
+}
+.togale{
+    color: gray;
+    text-decoration: line-through;
+}
+.btn-clear-all {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+  
+  .btn-clear-all:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .del{
+    border-radius: 5px;
+    background-color:rgb(255, 39, 39);
+  }
+  .info{
+    background-color: #4CAF50;
+  }
